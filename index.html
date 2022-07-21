@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://cdn.jsdelivr.net/gh/JothaM123/binpix-test@main/binpix.js"></script>
+    
+    <link rel = "stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/gradient-light.min.css" integrity="sha512-1GhzeBhtt0D/zt2tbRQV30B4+2/D5XKDDFwOT8oAlfFuipKTc1YvIaPA3MC1MfGYNVBdlIKmECqqWxNXOgS5gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js" integrity="sha512-gU7kztaQEl7SHJyraPfZLQCNnrKdaQi5ndOyt4L4UPL/FHDd/uB9Je6KDARIqwnNNE27hnqoWLBq+Kpe4iHfeQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>BinPix</title>
+</head>
+<body>
+    <center>
+        <h1>BinPix</h1>
+        <p>The pixel art JS library</p>
+        <div id = "art"></div>
+        <!-- <script src = "binpix.js"></script> -->
+        <script src = "script.js"></script>
+        <h2>Use it</h2>
+    </center>
+    
+    <pre>
+        <code>
+        https://cdn.jsdelivr.net/gh/JothaM123/binpix-test@main/binpix.js
+        </code>
+    </pre>
+    <pre>
+        <code>
+    
+//pix function draws the graphics
+// "art" is a &lt;div&gt; tag
+
+pix("art",
+`0 0 0 0 0 0 0<br>
+0 0 1 0 1 0 0<br>
+0 0 0 0 0 0 0<br>
+0 1 0 0 0 1 0<br>
+0 0 1 1 1 0 0<br>
+`, "gainsboro", "black")
+            
+// use 1s for blocks and 0 for spaces and use the &lt;br&gt; tag for new lines     
+// parameters: div id, art, background, color     
+        </code>
+    </pre>
+
+</body>
+</html>

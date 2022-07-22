@@ -1,7 +1,7 @@
 # BinPix the minimalistic JS graphics library.
 
 
-BinPix jsDeliver URL `https://raw.githubusercontent.com/JothaM123/binpix/main/binpix.js`
+BinPix jsDeliver URL `https://cdn.jsdelivr.net/gh/JothaM123/bp@main/binpix.js`
 
 Sample code 
 ```js

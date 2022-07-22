@@ -1,7 +1,7 @@
 # BinPix the minimalistic JS graphics library.
 
 
-BinPix jsDeliver URL `https://cdn.jsdelivr.net/gh/JothaM123/bp@main/binpix.js`
+BinPix `https://giant-gabby-macaroon.glitch.me/binpix.js`
 
 Sample code 
 ```js

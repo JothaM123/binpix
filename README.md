@@ -6,7 +6,7 @@ BinPix `https://giant-gabby-macaroon.glitch.me/binpix.js`
 Sample code 
 ```js
 //pix function draws the graphics
-// "art" is a &lt;div&gt; tag
+// "art" is a <div> tag
 
 pix("art",
 `0 0 0 0 0 0 0<br>
@@ -16,6 +16,6 @@ pix("art",
 0 0 1 1 1 0 0<br>
 `, "gainsboro", "black")
             
-// use 1s for blocks and 0 for spaces and use the &lt;br&gt; tag for new lines     
+// use 1s for blocks and 0 for spaces and use the <br> tag for new lines     
 // parameters: div id, art, background, color  
 ```

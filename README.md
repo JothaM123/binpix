@@ -17,5 +17,5 @@ pix("art",
 `, "gainsboro", "black")
             
 // use 1s for blocks and 0 for spaces and use the <br> tag for new lines     
-// parameters: div id, art, background, color  
+// parameters: element id , art, theme, color, width, height
 ```

@@ -19,3 +19,4 @@ pix("art",
 // use 1s for blocks and 0 for spaces and use the <br> tag for new lines     
 // parameters: element id , art, theme, color, width, height
 ```
+demo page - https://binpix-demo.glitch.me
